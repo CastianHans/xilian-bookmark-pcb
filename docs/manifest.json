@@ -1,0 +1,208 @@
+{
+  "format_version": 1,
+  "board": {
+    "width_mm": 56.0,
+    "height_mm": 99.0,
+    "corner_radius_mm": 3.0
+  },
+  "source": {
+    "filename": "colorized-from-final-lines.png",
+    "sha256": "49b8738ae0653f74227bb542c4c582773283868e85cfd02d928ee75f5b78a331"
+  },
+  "color_artwork": {
+    "dpi": 1200,
+    "pixel_size": [
+      2646,
+      4677
+    ],
+    "side": "top"
+  },
+  "enig": {
+    "area_percent": 17.5433,
+    "side": "top",
+    "hard_design_cap_percent": 20.0
+  },
+  "holes": 0,
+  "artifacts": [
+    {
+      "path": "artwork/board_outline.dxf",
+      "size_bytes": 443,
+      "sha256": "5322ee7e5d55e73625c666fe977550c395b1b36b4357b7282aea45e22f55414a"
+    },
+    {
+      "path": "artwork/board_outline.svg",
+      "size_bytes": 387,
+      "sha256": "5c9ebe7801867816547ffbd22aa73ef9126bf6a46d282d659c603512b49f4d9e"
+    },
+    {
+      "path": "artwork/color_silkscreen_top.svg",
+      "size_bytes": 349098,
+      "sha256": "9e2b72db94a82660f237be409e17809a02aefba0df6eb60fb379c7e4600d1d9f"
+    },
+    {
+      "path": "artwork/color_silkscreen_top_1200dpi.png",
+      "size_bytes": 12344280,
+      "sha256": "28506b765db84b0eec158d9f91624b053a8e3d46968ed1f0f018cea3a08a5d6c"
+    },
+    {
+      "path": "artwork/color_silkscreen_top_eda_import_1200dpi.png",
+      "size_bytes": 737291,
+      "sha256": "19b6ce8f190aa798872cd20f9b8e5bb28c2fc328d18122014f8a92b3774a4582"
+    },
+    {
+      "path": "artwork/enig_top.svg",
+      "size_bytes": 498609,
+      "sha256": "f758735955e79be04e541a9c20ed3821884c5008bb95980fb7996dfc8661f4b8"
+    },
+    {
+      "path": "bookmark-pcb-jlc-upload-ready.zip",
+      "size_bytes": 1216717,
+      "sha256": "bf5ff9981158eaa4e18ee1431c955ebabb19d766a96bbc4dd09e290d443c4e74"
+    },
+    {
+      "path": "easyeda-color-export/Bookmark_Art_PCB_56x99_ENIG_Vector.eprj2",
+      "size_bytes": 1536000,
+      "sha256": "f08d3f1eff14291bffb7ccb8978498f5e4e50f88ee571bf863575ee241274353"
+    },
+    {
+      "path": "easyeda-color-export/Fabrication_ColorfulBoardOutlineLayer.FCBO",
+      "size_bytes": 1361,
+      "sha256": "4c5ed56cffbe867bbb77afa60e96d2cf243560ea3645012f9f92a7ab894da014"
+    },
+    {
+      "path": "easyeda-color-export/Fabrication_ColorfulBoardOutlineMark.FCBM",
+      "size_bytes": 905,
+      "sha256": "9f16a4ce1474946db3116b49e122fd9e192a96500f031fe350fe610bb079afe6"
+    },
+    {
+      "path": "easyeda-color-export/Fabrication_ColorfulBottomSilkscreen.FCBS",
+      "size_bytes": 2202,
+      "sha256": "0946f0c19c4f0ccad7ed082bc1d6976b0018a67824eee8bdd3ca2934e76e3a08"
+    },
+    {
+      "path": "easyeda-color-export/Fabrication_ColorfulTopSilkscreen.FCTS",
+      "size_bytes": 985421,
+      "sha256": "a5af4d2034fb8dacb7675abae0f3676e3345a6751c8cb5b6591e6f18b34de39b"
+    },
+    {
+      "path": "easyeda-color-export/Gerber_BoardOutlineLayer.GKO",
+      "size_bytes": 643,
+      "sha256": "a540c59c923ee4e50dd5def493cf17bb5afece0e122e4baf7e16f63318a6c4c8"
+    },
+    {
+      "path": "easyeda-color-export/Gerber_BottomSilkscreenLayer.GBO",
+      "size_bytes": 375,
+      "sha256": "2cc64ea61a6884857d37489e2d1ae169b13e181a5edd2e10a5335f91d37cf289"
+    },
+    {
+      "path": "easyeda-color-export/Gerber_PCB1_2026-08-22-original.zip",
+      "size_bytes": 997256,
+      "sha256": "aa76f37993376549997cfb70d53cd26508667ee9025d08a36647a582fa5b9a07"
+    },
+    {
+      "path": "easyeda-color-export/Gerber_TopSilkscreenLayer.GTO",
+      "size_bytes": 372,
+      "sha256": "bfff4ff57b69c3a5afd0e82cb8403c34468d34be669d4a40d6b8f3920fe30e18"
+    },
+    {
+      "path": "gerber/Gerber_BoardOutline.GKO",
+      "size_bytes": 1886,
+      "sha256": "fd02fdb19113779e8dca11688e3701efab13e4b2de7123f9e4d65c8ac79e14fe"
+    },
+    {
+      "path": "gerber/Gerber_BottomLayer.GBL",
+      "size_bytes": 102,
+      "sha256": "2e2174c0967510c7903f69be24cc1437b2ff6cc3c0c0649540e833719ffbbaba"
+    },
+    {
+      "path": "gerber/Gerber_BottomSolderMaskLayer.GBS",
+      "size_bytes": 117,
+      "sha256": "c43665277579a77ee6387f867bb2e4f64966c01bf865e69ffe941a399e5cc119"
+    },
+    {
+      "path": "gerber/Gerber_TopLayer.GTL",
+      "size_bytes": 474596,
+      "sha256": "ccde3e254edac5f05d84f71303b6155ad14c1ca49ddad94b506950ac98e16f02"
+    },
+    {
+      "path": "gerber/Gerber_TopSolderMaskLayer.GTS",
+      "size_bytes": 458810,
+      "sha256": "e15a09b6bfa7503d251cfdc69008c346371a8a667d12dd35e3d9eb7d7c4e00ab"
+    },
+    {
+      "path": "jlc-upload-ready/Fabrication_ColorfulBoardOutlineLayer.FCBO",
+      "size_bytes": 1361,
+      "sha256": "4c5ed56cffbe867bbb77afa60e96d2cf243560ea3645012f9f92a7ab894da014"
+    },
+    {
+      "path": "jlc-upload-ready/Fabrication_ColorfulBoardOutlineMark.FCBM",
+      "size_bytes": 905,
+      "sha256": "9f16a4ce1474946db3116b49e122fd9e192a96500f031fe350fe610bb079afe6"
+    },
+    {
+      "path": "jlc-upload-ready/Fabrication_ColorfulBottomSilkscreen.FCBS",
+      "size_bytes": 2202,
+      "sha256": "0946f0c19c4f0ccad7ed082bc1d6976b0018a67824eee8bdd3ca2934e76e3a08"
+    },
+    {
+      "path": "jlc-upload-ready/Fabrication_ColorfulTopSilkscreen.FCTS",
+      "size_bytes": 985421,
+      "sha256": "a5af4d2034fb8dacb7675abae0f3676e3345a6751c8cb5b6591e6f18b34de39b"
+    },
+    {
+      "path": "jlc-upload-ready/Gerber_BoardOutlineLayer.GKO",
+      "size_bytes": 643,
+      "sha256": "a540c59c923ee4e50dd5def493cf17bb5afece0e122e4baf7e16f63318a6c4c8"
+    },
+    {
+      "path": "jlc-upload-ready/Gerber_BottomLayer.GBL",
+      "size_bytes": 102,
+      "sha256": "2e2174c0967510c7903f69be24cc1437b2ff6cc3c0c0649540e833719ffbbaba"
+    },
+    {
+      "path": "jlc-upload-ready/Gerber_BottomSilkscreenLayer.GBO",
+      "size_bytes": 375,
+      "sha256": "2cc64ea61a6884857d37489e2d1ae169b13e181a5edd2e10a5335f91d37cf289"
+    },
+    {
+      "path": "jlc-upload-ready/Gerber_BottomSolderMaskLayer.GBS",
+      "size_bytes": 117,
+      "sha256": "c43665277579a77ee6387f867bb2e4f64966c01bf865e69ffe941a399e5cc119"
+    },
+    {
+      "path": "jlc-upload-ready/Gerber_TopLayer.GTL",
+      "size_bytes": 475372,
+      "sha256": "1f3ae6f1e40ea3c340f3fd6af64e27a5838187aae9b5fab41de42c6f3371729b"
+    },
+    {
+      "path": "jlc-upload-ready/Gerber_TopSilkscreenLayer.GTO",
+      "size_bytes": 372,
+      "sha256": "bfff4ff57b69c3a5afd0e82cb8403c34468d34be669d4a40d6b8f3920fe30e18"
+    },
+    {
+      "path": "jlc-upload-ready/Gerber_TopSolderMaskLayer.GTS",
+      "size_bytes": 459600,
+      "sha256": "93b8b41921792104d5c3f39bc098fb81d99663c9b51389896d4ef58a4f1d16ac"
+    },
+    {
+      "path": "preview/enig_mask.png",
+      "size_bytes": 111233,
+      "sha256": "2d1b668011b157caefa5c290d87dd9dff730f286f8c9c2a6fd734b529cc3f963"
+    },
+    {
+      "path": "preview/layer_map.png",
+      "size_bytes": 1714884,
+      "sha256": "a759691c7f5fd97dd77c55488383bf6231913f0bc6ad9e1a1bb1ec9b78466411"
+    },
+    {
+      "path": "preview/pcb_preview_exact.png",
+      "size_bytes": 2781773,
+      "sha256": "c7bc7dd54b8c746ad8f4f29a03490681cb9012353aa2cd34090ab560230bd738"
+    },
+    {
+      "path": "README_下单说明.md",
+      "size_bytes": 2251,
+      "sha256": "b67b77e333c0becb47bca70abe0078f37df1d6481258577eb93897099ecbb755"
+    }
+  ]
+}

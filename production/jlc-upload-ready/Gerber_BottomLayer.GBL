@@ -1,0 +1,8 @@
+G04 Bottom copper intentionally empty*
+%FSLAX46Y46*%
+%MOMM*%
+%ADD10C,0.100000*%
+%LPD*%
+G01*
+D10*
+M02*

@@ -1,0 +1,6 @@
+# EasyEDA/editor temporary files
+*.lock
+*.tmp
+Thumbs.db
+desktop.ini
+

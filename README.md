@@ -1,0 +1,45 @@
+# 昔涟如我所书 · 沉金书签 PCB
+
+一个 56 × 99 mm 的艺术 PCB 书签工程，面向嘉立创 EDA / PCB 打样。
+
+## 直接下载
+
+- [最终下单包（Gerber + 彩色丝印工艺文件）](production/bookmark-pcb-jlc-upload-ready.zip)
+- [嘉立创 EDA 离线工程](easyeda/Bookmark_Art_PCB_56x99_ENIG_Vector_final.eprj2)
+- [完整矢量与制造文件](artwork/)
+- [生产预览图](preview/)
+
+## 当前规格
+
+- 外形：56.00 × 99.00 mm，圆角 R3.00 mm
+- 板材：2 层 FR-4
+- 板厚：1.6 mm
+- 阻焊：白色
+- 表面处理：沉金（ENIG）
+- 正面：彩色丝印 + 描边沉金
+- 背面：当前下单版本为空白白色阻焊面
+- 钻孔：无
+- 拼板：不拼板，单片出货
+
+## 文件说明
+
+```text
+artwork/                  矢量彩色丝印、沉金线稿、板框
+easyeda/                  嘉立创 EDA 专业版离线工程与导出留档
+production/               可直接用于生产的下单包及展开文件
+preview/                  金属层和整板预览，仅用于核对
+docs/                     制造清单、规格和 SHA-256 清单
+```
+
+生产时优先使用 `production/bookmark-pcb-jlc-upload-ready.zip`。不要把预览 PNG 当作 Gerber 上传，也不要单独替换 ZIP 内同名的彩色丝印、铜层或阻焊层文件。
+
+## 制造提醒
+
+这是艺术 PCB 文件，不是带电路功能的电子产品。下单前请在嘉立创 CAM 预览中重新核对板框尺寸、正反面方向、彩色丝印位置和沉金开窗；任何平台自动修复或坐标偏移都应先人工确认。
+
+本仓库公开的是工程和生产资料。原始角色/插画元素的著作权不由本仓库作者主张；请勿将原图或由其产生的商品用于未经授权的商业用途。
+
+## 校验
+
+完整文件清单和 SHA-256 校验值见 [`docs/manifest.json`](docs/manifest.json)。
+
