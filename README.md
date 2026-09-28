@@ -2,14 +2,12 @@
 
 一个 56 × 99 mm 的艺术 PCB 书签工程，面向嘉立创 EDA / PCB 打样。
 
-## 先看这里：正确下载包
+## 直接下载
 
-- [正确包：ENIG 沉金描边 + 彩色丝印（推荐上传）](production/xilian-bookmark-pcb-ENIG-color-upload-ready.zip)
-- [兼容旧链接的同一正确包](production/bookmark-pcb-jlc-upload-ready.zip)
+- [最终下单包（Gerber + 彩色丝印工艺文件）](production/bookmark-pcb-jlc-upload-ready.zip)
+- [嘉立创 EDA 离线工程](easyeda/Bookmark_Art_PCB_56x99_ENIG_Vector_final.eprj2)
 - [完整矢量与制造文件](artwork/)
 - [生产预览图](preview/)
-
-不要下载或上传 `archive/not-for-production/` 中的文件。那里面是此前的空工程/原始留档，只用于追溯问题，里面的 `GTL/GTS` 没有沉金描边。
 
 ## 当前规格
 
@@ -27,16 +25,13 @@
 
 ```text
 artwork/                  矢量彩色丝印、沉金线稿、板框
-easyeda/                  彩色丝印导出留档（不作为独立生产包）
+easyeda/                  嘉立创 EDA 专业版离线工程与导出留档
 production/               可直接用于生产的下单包及展开文件
 preview/                  金属层和整板预览，仅用于核对
 docs/                     制造清单、规格和 SHA-256 清单
-archive/                  明确标记为不可生产的历史留档
 ```
 
-生产时只使用 `production/xilian-bookmark-pcb-ENIG-color-upload-ready.zip`（或兼容旧链接的同一正确包）。不要把预览 PNG 当作 Gerber 上传，也不要单独替换 ZIP 内同名的彩色丝印、铜层或阻焊层文件。
-
-正确包内必须同时存在并且有内容：`Gerber_TopLayer.GTL`（沉金铜线）和 `Gerber_TopSolderMaskLayer.GTS`（沉金开窗）。
+生产时优先使用 `production/bookmark-pcb-jlc-upload-ready.zip`。不要把预览 PNG 当作 Gerber 上传，也不要单独替换 ZIP 内同名的彩色丝印、铜层或阻焊层文件。
 
 ## 制造提醒
 
@@ -46,4 +41,5 @@ archive/                  明确标记为不可生产的历史留档
 
 ## 校验
 
-完整文件清单和 SHA-256 校验值见 [`docs/manifest.json`](docs/manifest.json)。历史问题说明见 [`archive/not-for-production/README.md`](archive/not-for-production/README.md)。
+完整文件清单和 SHA-256 校验值见 [`docs/manifest.json`](docs/manifest.json)。
+
