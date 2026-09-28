@@ -5,6 +5,7 @@
 ## 先看这里：正确下载包
 
 - [正确包：ENIG 沉金描边 + 彩色丝印（推荐上传）](production/xilian-bookmark-pcb-ENIG-color-upload-ready.zip)
+- [嘉立创 EDA 专业版工程（EPRO，推荐打开）](easyeda/ProPrj_Bookmark_Art_PCB_56x99_ENIG_Vector_final_2026-09-28.epro)
 - [兼容旧链接的同一正确包](production/bookmark-pcb-jlc-upload-ready.zip)
 - [完整矢量与制造文件](artwork/)
 - [生产预览图](preview/)
@@ -27,7 +28,7 @@
 
 ```text
 artwork/                  矢量彩色丝印、沉金线稿、板框
-easyeda/                  彩色丝印导出留档（不作为独立生产包）
+easyeda/                  嘉立创 EDA 专业版工程与导出留档
 production/               可直接用于生产的下单包及展开文件
 preview/                  金属层和整板预览，仅用于核对
 docs/                     制造清单、规格和 SHA-256 清单
